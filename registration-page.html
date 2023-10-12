@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="css/registration-design.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Page</h1>
+        <form>
+            <div>
+                <label for="">UserName</label>
+                <input type="text" placeholder="Type UserName here">
+            </div>
+            <div>
+                <label for="">Password</label>
+                <input type="password" placeholder="Type Password here">
+            </div>
+            <div>
+                <label for="">Name</label>
+                <input type="text" placeholder="Type Name here">
+            </div>
+            <div>
+                <label for="">Gender</label>
+                <input type="radio" name="gender">
+                <label for="">Male</label>
+                <input type="radio" name="gender">
+                <label for="">Female</label>
+            </div>
+            <div>
+                <label for="">DOB</label>
+                <input type="date">
+            </div>
+            <div>
+                <label for="">Country</label>
+                <input list="country">
+                <datalist id="country">
+                    <option value="India">
+                    <option value="Canada">
+                    <option value="UK">
+                    <option value="Germany">
+                    <option value="France">
+                </datalist>
+            </div>
+            <div class="btn-fields">
+                <button>Register Now</button>
+                <button>Clear All</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+
+.container{
+    margin: 0 10%;
+}
+
+form{
+    background-color: aqua;
+    padding: 29px;
+    margin: 10px 29px;
+    font-size: 1.2em;
+}
+
+h1{
+    font-size: 2.2em;
+    color: darkblue;
+    text-align: center;
+}
+
+
+input{
+    width: 100%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+input[type='radio']{
+    width: 5%;
+    margin: 2% 0;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    margin-left: 20px;
+    width: 40%;
+}
+
+button:hover{
+    background-color: darkblue;
+    opacity: 0.5;
+}
+
+.btn-fields{
+    margin-left: 12%;
+}
+
+
+
